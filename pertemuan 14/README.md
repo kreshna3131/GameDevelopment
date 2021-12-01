@@ -16,8 +16,8 @@
     <li>selanjutnya kita membuat program untuk playlist dan kita deklarasikan dengan songlist</li>
     <li>selanjutnya kita deklarasi VolumeLevel dengan Scale yang digunakan untuk mengatur volumenya</li>
     <li>setelah itu kita membuat sebuah inputan playlist yang dimana kita deklarasikan playlist. disini saya menggunakan for yang didalamnya berisi songlist tadi</li>
-    <li>kemudian kita inisialisasi dan inisialisasi mixer untuk sound</li>
-    <li>Membuat Fungsi</li>
+    <li>kemudian kita inisialisasi pygame dan inisialisasi mixer untuk sound</li>
+    <li>Membuat Fungsi yang dibutuhkan pada pembuatan Media Player</li>
       <ul>
         <table style="width:100%">
           <tr>

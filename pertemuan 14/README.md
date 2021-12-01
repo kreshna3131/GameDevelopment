@@ -27,19 +27,19 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td>2
               <th>Stop</th>
               <td>fungsi ExitPlayer ini digunakan untuk mematikan musik yang sedang diputar</td>
             </td>
           </tr>
           <tr>
-            <td>
+            <td>3
               <th>Pause</th>
               <td>fungsi Pause ini digunakan untuk memberhentikan musik sementara</td>
             </td>
           </tr>
           <tr>
-            <td>
+            <td>4
               <th>UnPause</th>
               <td>fungsi UnPause ini digunakan untuk menjalankan musik setelah sebelumnya di berhentikan sementara atau Pause</td>
             </td>

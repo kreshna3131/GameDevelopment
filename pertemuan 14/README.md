@@ -29,5 +29,17 @@
     <li>selanjutnya kita membuat penempatan sebuah widgetnya yang sudah dibuat terlebih dahulu</li>
     <li>dan yang terakhir ini untuk mainloop</li>
   </ol>
+  <table style="width:100%">
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
 </div>
 <hr>

@@ -1,9 +1,9 @@
-<h2>Penjelasan Mengenai Program yang dibuat</h2>
-<h5>Kreshna Putra Adi Wicaksana | V3920032</h5>
+<h1>Penjelasan Mengenai Program yang dibuat</h1>
+<h5>Kreshna Putra Adi Wicaksana | V3920032 | TI-D</h5>
 <hr>
 
 <div style="text-align:justify">
-  <h3>Alur Yang Dilakukan</h3>
+  <h2><b>Alur Yang Dilakukan</b></h2>
   <ol>
     <li>Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame, tkinter, dan os</li>
     <li>kemudian kita membuat sebuah window dengan perintah tkr.Tk()</li>
@@ -14,10 +14,10 @@
     <li>kemudian kita inisialisasi dan inisialisasi mixer untuk sound</li>
     <li>Membuat Fungsi</li>
       <ul>
-        <li>Play : fungsi Play ini untuk menjalankan atau memutar musik yang telah dipilih. pada program yang dibuat ini saya menggunakan mixer load, play, set_volume, dan get_volume</li>
-        <li>ExitPlayer : fungsi ExitPlayer ini digunakan untuk mematikan musik yang sedang diputar</li>
-        <li>Pause : fungsi Pause ini digunakan untuk memberhentikan musik sementara</li>
-        <li>UnPause : fungsi UnPause ini digunakan untuk menjalankan musik setelah sebelumnya di berhentikan sementara atau Pause</li>
+        <li><b><i>Play</i></b> : fungsi Play ini untuk menjalankan atau memutar musik yang telah dipilih. pada program yang dibuat ini saya menggunakan mixer load, play, set_volume, dan get_volume</li>
+        <li><b><i>ExitPlayer</i></b> : fungsi ExitPlayer ini digunakan untuk mematikan musik yang sedang diputar</li>
+        <li><b><i>Pause</i></b> : fungsi Pause ini digunakan untuk memberhentikan musik sementara</li>
+        <li><b><i>UnPause</i></b> : fungsi UnPause ini digunakan untuk menjalankan musik setelah sebelumnya di berhentikan sementara atau Pause</li>
       </ul>
     <li>kemudian kita membuat button atau tombol sebanyak 4 buah yang digunakan untuk Play, Stop, Pause, dan UnPause</li>
     <li>kemudian kita membuat sting untuk lagu dengan labelnya ini dipilih dari songtitle</li>

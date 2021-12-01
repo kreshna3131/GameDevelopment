@@ -4,7 +4,8 @@
 <hr>
 
 <div style="text-align:justify">
-  <center><h1><b>Alur Yang Dilakukan</b></h1></center>
+  <h1><b>Alur Yang Dilakukan</b></h1>
+  <hr>
   <ol>
     <li>Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame, tkinter, dan os</li>
     <li>kemudian kita membuat sebuah window dengan perintah tkr.Tk()</li>
@@ -26,3 +27,4 @@
     <li>dan yang terakhir ini untuk mainloop</li>
   </ol>
 </div>
+<hr>

@@ -19,27 +19,37 @@
     <li>kemudian kita inisialisasi dan inisialisasi mixer untuk sound</li>
     <li>Membuat Fungsi</li>
       <ul>
-        <li><b><i>Play</i></b> : fungsi Play ini untuk menjalankan atau memutar musik yang telah dipilih. pada program yang dibuat ini saya menggunakan mixer load, play, set_volume, dan get_volume</li>
-        <li><b><i>ExitPlayer</i></b> : fungsi ExitPlayer ini digunakan untuk mematikan musik yang sedang diputar</li>
-        <li><b><i>Pause</i></b> : fungsi Pause ini digunakan untuk memberhentikan musik sementara</li>
-        <li><b><i>UnPause</i></b> : fungsi UnPause ini digunakan untuk menjalankan musik setelah sebelumnya di berhentikan sementara atau Pause</li>
+        <table style="width:100%">
+          <tr>
+            <td>
+              <th>Play</th>
+              <td>fungsi Play ini untuk menjalankan atau memutar musik yang telah dipilih. pada program yang dibuat ini saya menggunakan mixer load, play, set_volume, dan get_volume</td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <th>Stop</th>
+              <td>fungsi ExitPlayer ini digunakan untuk mematikan musik yang sedang diputar</td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <th>Pause</th>
+              <td>fungsi Pause ini digunakan untuk memberhentikan musik sementara</td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <th>UnPause</th>
+              <td>fungsi UnPause ini digunakan untuk menjalankan musik setelah sebelumnya di berhentikan sementara atau Pause</td>
+            </td>
+          </tr>
+        </table>
       </ul>
     <li>kemudian kita membuat button atau tombol sebanyak 4 buah yang digunakan untuk Play, Stop, Pause, dan UnPause</li>
     <li>kemudian kita membuat sting untuk lagu dengan labelnya ini dipilih dari songtitle</li>
     <li>selanjutnya kita membuat penempatan sebuah widgetnya yang sudah dibuat terlebih dahulu</li>
     <li>dan yang terakhir ini untuk mainloop</li>
   </ol>
-  <table style="width:100%">
-  <tr>
-    <td>Emil</td>
-    <td>Tobias</td>
-    <td>Linus</td>
-  </tr>
-  <tr>
-    <td>16</td>
-    <td>14</td>
-    <td>10</td>
-  </tr>
-</table>
 </div>
 <hr>

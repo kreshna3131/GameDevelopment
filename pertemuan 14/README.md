@@ -51,5 +51,6 @@
     <li>selanjutnya kita membuat penempatan sebuah widgetnya yang sudah dibuat terlebih dahulu</li>
     <li>dan yang terakhir ini untuk mainloop</li>
   </ol>
+  <h4>Sekian Penjelasan dari Saya, Terimakasih</h4>
 </div>
 <hr>

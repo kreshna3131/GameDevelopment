@@ -7,7 +7,7 @@
 <hr>
 
 <div style="text-align:justify">
-  <h1><b>Alur Yang Dilakukan</b></h1>
+  <h1><span>Alur Yang Dilakukan Untuk Membuat Media Player</span></h1>
   <hr>
   <ol>
     <li>Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame, tkinter, dan os</li>

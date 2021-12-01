@@ -19,7 +19,6 @@ VolumeLevel = tkr.Scale(player, from_=0.1, to_=1.0,
                         orient=tkr.HORIZONTAL, resolution=0.1)
 
 # input playlist
-# playlist = tkr.Listbox(player,  selectmode=tkr.SINGLE)
 playlist = tkr.Listbox(player, highlightcolor="darkMagenta", selectmode=tkr.SINGLE)
 print(songlist)
 for item in songlist:
@@ -31,9 +30,7 @@ for item in songlist:
 pygame.init()
 pygame.mixer.init()
 
-# aksi event
-
-
+# aksi fungsi
 def Play():
     pygame.mixer.music.load(playlist.get(tkr.ACTIVE))
     var.set(playlist.get(tkr.ACTIVE))

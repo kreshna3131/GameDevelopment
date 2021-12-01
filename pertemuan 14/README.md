@@ -1,6 +1,9 @@
 <h1>Penjelasan Mengenai Program yang dibuat</h1>
 <hr>
-<h5>Kreshna Putra Adi Wicaksana | V3920032 | TI-D</h5>
+<h5>Kreshna Putra Adi Wicaksana</h5>
+<h5>V3920032</h5>
+<h5>TI-D</h5>
+<h5>PRAKTIK GAME DEVELOPMENT PERTEMUAN 14</h5>
 <hr>
 
 <div style="text-align:justify">

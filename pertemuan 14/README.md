@@ -1,9 +1,10 @@
 <h1>Penjelasan Mengenai Program yang dibuat</h1>
+<hr>
 <h5>Kreshna Putra Adi Wicaksana | V3920032 | TI-D</h5>
 <hr>
 
 <div style="text-align:justify">
-  <h2><b>Alur Yang Dilakukan</b></h2>
+  <center><h1><b>Alur Yang Dilakukan</b></h1></center>
   <ol>
     <li>Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame, tkinter, dan os</li>
     <li>kemudian kita membuat sebuah window dengan perintah tkr.Tk()</li>

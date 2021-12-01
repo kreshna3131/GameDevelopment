@@ -20,8 +20,8 @@
     <li>Membuat Fungsi</li>
       <ul>
         <table style="width:100%">
-          <tr>1
-            <td>
+          <tr>
+            <td>1
               <th>Play</th>
               <td>fungsi Play ini untuk menjalankan atau memutar musik yang telah dipilih. pada program yang dibuat ini saya menggunakan mixer load, play, set_volume, dan get_volume</td>
             </td>

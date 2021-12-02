@@ -6,16 +6,15 @@
 <h5>PRAKTIK GAME DEVELOPMENT PERTEMUAN 14</h5>
 <hr>
 
-<div>
+<div style="text-align:justify">
   <h1><span>Alur Yang Dilakukan Untuk Membuat Media Player</span></h1>
   <hr>
   <ol>
-    <li>Pada line 1 hingga 6 Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame,
-      tkinter, pickle, dan os
+    <li>Pada line 1 hingga 6 Kita mengimportkan atau mengambil library yang diperlukan, yang saya perlukan ini pygame, tkinter, pickle, dan os
     </li>
     <li>Kemudian pada line 8 kita membuat sebuah class yang bernama player dan parameternya tk.Frame</li>
     <li>Membuat Fungsi</li>
-    <ul>
+      <ul>
       <table style="width:100%">
         <tr>
           <td>1
@@ -24,7 +23,6 @@
             pada hal ini kita membuat beberapa hal yang ingin dibuat seperti frame, tombol, dan membuka playlist</td>
           </td>
         </tr>
-
         <tr>
           <td>2
           <th>Fungsi create_frames</th>
@@ -32,7 +30,6 @@
             ini berisi beberapa label dan style yang dibutuhkan</td>
           </td>
         </tr>
-
         <tr>
           <td>3
           <th>Fungsi track_widgets</th>
@@ -41,7 +38,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>4
           <th>Fungsi control_widgets</th>
@@ -52,7 +48,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>5
           <th>Fungsi tracklist_widgets</th>
@@ -61,7 +56,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>6
           <th>Fungsi retrieve_songs</th>
@@ -69,7 +63,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>7
           <th>Fungsi enumerate_songs</th>
@@ -77,7 +70,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>8
           <th>Fungsi play_pause_song</th>
@@ -86,7 +78,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>9
           <th>Fungsi play_song</th>
@@ -95,7 +86,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>10
           <th>Fungsi pause_song</th>
@@ -104,7 +94,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>11
           <th>Fungsi prev_song</th>
@@ -113,7 +102,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>12
           <th>Fungsi next_song</th>
@@ -122,7 +110,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>13
           <th>Fungsi change_volume</th>
@@ -139,7 +126,5 @@
     <li>selanjutnya line 194 ini deklarasi img dan diisi dengan foto yang bernama previous</li>
     <li>selanjutnya line 195 ini deklarasi img dan diisi dengan foto yang bernama play</li>
     <li>selanjutnya line 196 ini deklarasi img dan diisi dengan foto yang bernama pause</li>
-
   </ol>
 </div>
-<hr>

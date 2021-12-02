@@ -32,7 +32,6 @@
             ini berisi beberapa label dan style yang dibutuhkan</td>
           </td>
         </tr>
-
         <tr>
           <td>3
           <th>Fungsi track_widgets</th>
@@ -41,7 +40,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>4
           <th>Fungsi control_widgets</th>
@@ -52,7 +50,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>5
           <th>Fungsi tracklist_widgets</th>
@@ -61,7 +58,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>6
           <th>Fungsi retrieve_songs</th>
@@ -69,7 +65,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>7
           <th>Fungsi enumerate_songs</th>
@@ -77,7 +72,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>8
           <th>Fungsi play_pause_song</th>
@@ -86,7 +80,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>9
           <th>Fungsi play_song</th>
@@ -95,7 +88,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>10
           <th>Fungsi pause_song</th>
@@ -104,7 +96,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>11
           <th>Fungsi prev_song</th>
@@ -113,7 +104,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>12
           <th>Fungsi next_song</th>
@@ -122,7 +112,6 @@
           </td>
         </tr>
         </tr>
-
         <tr>
           <td>13
           <th>Fungsi change_volume</th>
@@ -139,7 +128,6 @@
     <li>selanjutnya line 194 ini deklarasi img dan diisi dengan foto yang bernama previous</li>
     <li>selanjutnya line 195 ini deklarasi img dan diisi dengan foto yang bernama play</li>
     <li>selanjutnya line 196 ini deklarasi img dan diisi dengan foto yang bernama pause</li>
-
   </ol>
 </div>
 <hr>

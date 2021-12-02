@@ -34,19 +34,19 @@ class Player(tk.Frame):
     def create_frames(self):
         self.music = tk.LabelFrame(self, text='Song Track',
                                    font=("times new roman", 15, "bold"),
-                                   bg="grey", fg="white", bd=5, relief=tk.GROOVE)
+                                   bg="sky blue", fg="black", bd=5, relief=tk.GROOVE)
         self.music.config(width=410, height=300)
         self.music.grid(row=0, column=0, padx=10)
 
         self.tracklist = tk.LabelFrame(self, text=f'PlayList - {str(len(self.playlist))}',
                                        font=("times new roman", 15, "bold"),
-                                       bg="grey", fg="white", bd=5, relief=tk.GROOVE)
+                                       bg="sky blue", fg="black", bd=5, relief=tk.GROOVE)
         self.tracklist.config(width=190, height=400)
         self.tracklist.grid(row=0, column=1, rowspan=3, pady=5)
 
         self.controls = tk.LabelFrame(self,
                                       font=("times new roman", 15, "bold"),
-                                      bg="white", fg="white", bd=2, relief=tk.GROOVE)
+                                      bg="salmon", fg="sky blue", bd=2, relief=tk.GROOVE)
         self.controls.config(width=410, height=80)
         self.controls.grid(row=2, column=0, pady=5, padx=10)
 
@@ -56,14 +56,14 @@ class Player(tk.Frame):
         self.canvas.grid(row=0, column=0)
 
         self.songtrack = tk.Label(self.music, font=("times new roman", 16, "bold"),
-                                  bg="white", fg="green")
+                                  bg="white", fg="salmon")
         self.songtrack['text'] = 'MP3 Player'
         self.songtrack.config(width=30, height=1)
         self.songtrack.grid(row=1, column=0, padx=10)
 
     def control_widgets(self):
         self.loadSongs = tk.Button(
-            self.controls, bg='green', fg='white', font=10)
+            self.controls, bg='sky blue', fg='black', font=10)
         self.loadSongs['text'] = 'Load Songs'
         self.loadSongs['command'] = self.retrieve_songs
         self.loadSongs.grid(row=0, column=0, padx=10)
@@ -94,7 +94,7 @@ class Player(tk.Frame):
         self.scrollbar.grid(row=0, column=1, rowspan=5, sticky='ns')
 
         self.list = tk.Listbox(self.tracklist, selectmode=tk.SINGLE,
-                               yscrollcommand=self.scrollbar.set, selectbackground='red')
+                               yscrollcommand=self.scrollbar.set, selectbackground='salmon')
         self.enumerate_songs()
         self.list.config(height=22)
         self.list.bind('<Double-1>', self.play_song)
@@ -132,7 +132,7 @@ class Player(tk.Frame):
         if event is not None:
             self.current = self.list.curselection()[0]
             for i in range(len(self.playlist)):
-                self.list.itemconfigure(i, bg="white")
+                self.list.itemconfigure(i, bg="black")
 
         print(self.playlist[self.current])
         mixer.music.load(self.playlist[self.current])
